@@ -1,0 +1,10 @@
+{
+  "name": "@mm/login",
+  "scripts": {
+    "start": "micro ."
+  },
+  "dependencies": {
+    "micro": "^9.1.0",
+    "mongoose": "^5.0.7"
+  }
+}
