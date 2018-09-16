@@ -6,6 +6,6 @@
   "dependencies": {
     "micro": "^9.1.0",
     "mongoose": "^5.0.7",
-    "mm-authenticate": "mechmania2018/mm-authenticate"
+    "mm-authenticate": "0.0.2"
   }
 }

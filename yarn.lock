@@ -28,6 +28,10 @@ content-type@1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/content-type/-/content-type-1.0.4.tgz#e138cc75e040c727b1966fe5e5f8c9aee256fe3b"
 
+cuid@2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/cuid/-/cuid-2.1.4.tgz#e1178eb92a05ef9364b29a9942feed36d3604cdd"
+
 debug@2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
@@ -86,21 +90,21 @@ micro@^9.1.0:
     mri "1.1.0"
     raw-body "2.3.2"
 
-mm-authenticate@mechmania2018/mm-authenticate:
-  version "1.0.0"
-  resolved "https://codeload.github.com/mechmania2018/mm-authenticate/tar.gz/3b4c1d35779dc3410fb8b6166891f882bed25cdd"
+mm-authenticate@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/mm-authenticate/-/mm-authenticate-0.0.2.tgz#8845314a9460734dc0f93405694eae6ea45c2bd7"
   dependencies:
     micro "^9.1.0"
-    mm-schemas pranaygp/mm-schemas
+    mm-schemas "0.0.2"
 
-mm-schemas@pranaygp/mm-schemas:
-  version "1.0.0"
-  resolved "https://codeload.github.com/pranaygp/mm-schemas/tar.gz/28ce3aeef693520abce276cd3f9d53e7ae6055c6"
+mm-schemas@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/mm-schemas/-/mm-schemas-0.0.2.tgz#2853f0c94e29a85c71676f915a42e90d94f61886"
   dependencies:
-    mongoose "^5.0.7"
-    mongoose-timestamp "^0.6.0"
-    uuid "^3.2.1"
-    validator "^9.4.1"
+    cuid "2.1.4"
+    mongoose "5.0.7"
+    mongoose-timestamp "0.6.0"
+    validator "9.4.1"
 
 mongodb-core@3.0.2:
   version "3.0.2"
@@ -119,13 +123,13 @@ mongoose-legacy-pluralize@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/mongoose-legacy-pluralize/-/mongoose-legacy-pluralize-1.0.2.tgz#3ba9f91fa507b5186d399fb40854bff18fb563e4"
 
-mongoose-timestamp@^0.6.0:
+mongoose-timestamp@0.6.0:
   version "0.6.0"
   resolved "https://registry.yarnpkg.com/mongoose-timestamp/-/mongoose-timestamp-0.6.0.tgz#da54110ca8e6d4c2b9957a0366836c362ed272be"
   dependencies:
     defaults "^1.0.3"
 
-mongoose@^5.0.7:
+mongoose@5.0.7, mongoose@^5.0.7:
   version "5.0.7"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-5.0.7.tgz#7c20a3c734ef4e8999f150e5a48e97dfa3f06951"
   dependencies:
@@ -210,10 +214,6 @@ unpipe@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"
 
-uuid@^3.2.1:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
-
-validator@^9.4.1:
+validator@9.4.1:
   version "9.4.1"
   resolved "http://registry.npmjs.org/validator/-/validator-9.4.1.tgz#abf466d398b561cd243050112c6ff1de6cc12663"
