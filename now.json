@@ -1,11 +1,11 @@
 {
-  "public": true,
+  "version": 2,
   "alias": "login.mechmania.io",
-  "type": "docker",
-  "features": {
-    "cloud": "v2"
-  },
+  "name": "Login",
+  "scope": "mechmania2019",
   "env": {
-    "MONGO_URL": "@mongo"
-  }
+    "MONGO_URL": "@mongo-url"
+  },
+  "builds": [{ "src": "index.js", "use": "@now/node" }],
+  "routes": [{ "src": "/.*", "dest": "index.js" }]
 }
